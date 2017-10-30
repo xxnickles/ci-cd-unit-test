@@ -4,7 +4,8 @@
   "description": "Automated unit test demo",
   "main": "index.js",
   "scripts": {
-    "test": "karma start --single-run"
+    "test": "karma start",
+    "test-using-my-conf": "karma start my.conf.single.js"
   },
   "keywords": [
     "Unit",
